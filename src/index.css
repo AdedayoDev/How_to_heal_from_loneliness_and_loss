@@ -819,20 +819,14 @@ a:focus-visible {
   font-family: var(--font-heading);
 }
 
-.author-bio-portrait-placeholder {
-  display: flex;
+.author-bio-portrait {
+  display: block;
   width: min(100%, 360px);
   aspect-ratio: 4 / 5;
-  align-items: center;
-  justify-content: center;
   justify-self: end;
   border: 1px solid var(--color-border);
   border-radius: 8px;
-  padding: 24px;
-  background: var(--color-primary-light);
-  color: var(--color-text-muted);
-  font-size: 0.875rem;
-  text-align: center;
+  object-fit: cover;
 }
 
 .author-bio-closing {
@@ -1844,7 +1838,7 @@ a:focus-visible {
     margin-top: 16px;
   }
 
-  .author-bio-portrait-placeholder {
+  .author-bio-portrait {
     width: min(100%, 360px);
     justify-self: center;
   }

@@ -32,9 +32,11 @@ function AuthorBio() {
           </p>
         </div>
 
-        <div className='author-bio-portrait-placeholder'>
-          <span>Author portrait to be supplied</span>
-        </div>
+        <img
+          className='author-bio-portrait'
+          src='/Pastor%20Picture.png'
+          alt='Pastor Ipaye Isaac'
+        />
 
         <p className='author-bio-closing'>
           He wrote this book for the person who keeps showing up, keeps smiling,
