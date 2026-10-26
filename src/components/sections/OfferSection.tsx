@@ -26,10 +26,11 @@ function OfferSection() {
         <div className='offer-layout'>
           <div className='offer-product'>
             <figure className='offer-cover'>
-              <div className='offer-cover__placeholder'>
-                Approved book cover to be supplied
-              </div>
-              <figcaption>Book cover placeholder</figcaption>
+              <img
+                className='offer-cover__image'
+                src='/Front%20Cover%20(2.0).png'
+                alt='Cover of How to Heal from Loneliness and Loss by Ipaye Isaac'
+              />
             </figure>
 
             <div className='offer-product__details'>

@@ -91,27 +91,16 @@ function Hero() {
 
         <motion.div
           className='hero-book-column'
-          aria-label='Temporary book-cover mockup'
+          aria-label='Book cover'
           initial={reduceMotion ? false : { opacity: 0, scale: 0.98 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ ...entranceTransition, delay: reduceMotion ? 0 : 0.12 }}
         >
-          <div
-            className='book-placeholder'
-            aria-label='Temporary cover artwork'
-          >
-            <span className='book-placeholder__topline'>
-              A GUIDE TO HEALING
-            </span>
-            <span className='book-placeholder__title'>
-              How to Heal from Loneliness and Loss
-            </span>
-            <span className='book-placeholder__rule' aria-hidden='true' />
-            <span className='book-placeholder__author'>Pastor Ipaye Isaac</span>
-            <span className='book-placeholder__notice'>
-              Temporary cover mockup
-            </span>
-          </div>
+          <img
+            className='hero-book-image'
+            src='/mock-how-to-heal-from-loneliness-and-loss-3.png'
+            alt='How to Heal from Loneliness and Loss by Pastor Ipaye Isaac'
+          />
         </motion.div>
       </div>
     </section>
